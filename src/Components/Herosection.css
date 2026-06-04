@@ -1,0 +1,21 @@
+.herosection {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: var(--bg-primary);
+  text-align: justify;
+}
+
+.highlighted-name {
+  color: var(--accent-primary);
+}
+
+.stats-section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+}
+
+.stats-section h3 {
+  color: var(--accent-primary);
+}

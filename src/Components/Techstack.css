@@ -1,0 +1,50 @@
+.tech-section {
+  background: var(--bg-primary);
+  color: white;
+}
+
+.tech-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-card:hover {
+  border-color: var(--accent-primary);
+  box-shadow: var(--glow-red);
+}
+
+.tech-icon {
+  color: var(--accent-primary);
+  transition: 0.3s ease;
+}
+
+.tech-card:hover .tech-icon {
+  transform: scale(1.15);
+}
+
+.tech-card h6 {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.section-subtitle {
+  color: var(--accent-primary);
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.section-title span {
+  color: var(--accent-primary);
+}

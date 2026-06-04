@@ -1,0 +1,70 @@
+.about-section {
+  background: var(--bg-primary);
+  color: white;
+}
+
+.section-subtitle {
+  color: var(--accent-primary);
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.about-intro {
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: auto;
+}
+
+.about-image {
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.about-role {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-role span {
+  color: var(--accent-primary);
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.skill-badge {
+  background: rgba(230, 57, 70, 0.12);
+  border: 1px solid rgba(230, 57, 70, 0.4);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.about-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--glow-red);
+}
+
+.about-card h3 {
+  color: var(--accent-primary);
+  margin-bottom: 5px;
+}
+
+.about-card p {
+  margin: 0;
+  color: var(--text-secondary);
+}
