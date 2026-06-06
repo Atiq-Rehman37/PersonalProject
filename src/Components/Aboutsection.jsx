@@ -61,7 +61,7 @@ const Aboutsection = () => {
 
             <p>
               Along with full-stack development, I build AI-powered web
-              solutions, automation tools, dashboards, e-commerce platforms, and
+              solutions, automation tools, dashboards, E-commerce platforms, and
               custom business systems.
             </p>
 
