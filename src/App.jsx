@@ -1,25 +1,35 @@
+import { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import Home from "./Pages/Home";
+import Preloader from "./Components/Preloader";
+
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  if (loading) {
+    return <Preloader onFinish={() => setLoading(false)} />;
+  }
+
   return (
-    <div>
-      <Router>
-        <Navbar></Navbar>
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </main>
-        <ScrollToTop></ScrollToTop>
-        <Footer></Footer>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+
+      <ScrollToTop />
+      <Footer />
+    </Router>
   );
 };
 

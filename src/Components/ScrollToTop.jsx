@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowUp } from "react-icons/fa";
 import { HiArrowLongUp } from "react-icons/hi2";
 import "./ScrollToTop.css";
 
@@ -34,7 +33,7 @@ const ScrollToTop = () => {
       aria-label="Scroll to top"
       title="Scroll to top"
     >
-      <FaArrowUp />
+      <HiArrowLongUp />
     </button>
   );
 };

@@ -35,7 +35,7 @@ const projects = [
       "Real-time API-powered search results",
       "Category-based media browsing",
     ],
-    tech: ["Redux Toolkit", "Pexels API", "Shutterstock API"],
+    tech: ["Redux Toolkit", "Pexels API", "Unsplash API"],
     live: "https://github.com/Atiq-Rehman37/MediaVault-MediaSearch-",
     github: "https://github.com/Atiq-Rehman37/MediaVault-MediaSearch-",
   },
