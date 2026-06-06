@@ -9,14 +9,16 @@ import ScrollToTop from "./components/ScrollToTop";
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </main>
-      <Footer></Footer>
-      <ScrollToTop></ScrollToTop>
+      <Router>
+        <Navbar></Navbar>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+        <ScrollToTop></ScrollToTop>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 };
