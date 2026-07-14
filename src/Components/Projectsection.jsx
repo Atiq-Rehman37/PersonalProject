@@ -5,15 +5,15 @@ import "./Projectsection.css";
 const projects = [
   {
     category: "MERN STACK + AI",
-    title: "AI Virtual Assistant (In Progress)",
+    title: "AI Virtual Assistant",
     features: [
       "Voice-based interaction",
       "Task assistance & automation",
       "Web search integration",
     ],
     tech: ["React", "Node.js", "Speech Recognition"],
-    live: "#",
-    github: "#",
+    live: "https://github.com/Atiq-Rehman37/AI-Voice-Assistant",
+    github: "https://github.com/Atiq-Rehman37/AI-Voice-Assistant",
   },
   {
     category: "AI TOOL",
@@ -63,18 +63,6 @@ const projects = [
     live: "https://pureaquaplus.net/",
     github: "https://github.com/Atiq-Rehman37/Pure-Aqua-Plus",
   },
-  // {
-  //   category: "WEB APPLICATION",
-  //   title: "Weather Forecast App",
-  //   features: [
-  //     "Real-time weather updates",
-  //     "7-day forecast",
-  //     "Location-based search",
-  //   ],
-  //   tech: ["React", "Weather API", "Geolocation"],
-  //   live: "https://github.com/Atiq-Rehman37/WeatherApp",
-  //   github: "https://github.com/Atiq-Rehman37/WeatherApp",
-  // },
   {
     category: "PORTFOLIO WEBSITE",
     title: "Personal Portfolio",
